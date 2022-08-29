@@ -1,1 +1,21 @@
-{"LocalDateTime":"2022-08-22T14:59:03.952","PermanentAddress":{"city":"Kathua","permanentAddress":"Jammu"},"name":"Toyota","TemporaryAddress":[{"VillageAddress":{"Village":"Hiranagar","School":"Govt Higher Secondary"},"pincode":"184111","Area":"Jammu To Chandigarh"}],"id":5,"BusReservationStatus":"BOOKED","type":"AC"}
+{
+  "LocalDateTime": "2022-08-22T14:59:03.952",
+  "PermanentAddress": {
+    "city": "Kathua",
+    "permanentAddress": "Jammu"
+  },
+  "name": "Toyota",
+  "TemporaryAddress": [
+    {
+      "VillageAddress": {
+        "Village": "Hiranagar",
+        "School": "Govt Higher Secondary"
+      },
+      "pincode": "184111",
+      "Area": "Jammu To Chandigarh"
+    }
+  ],
+  "id": 5,
+  "BusReservationStatus": "BOOKED",
+  "type": "AC"
+}

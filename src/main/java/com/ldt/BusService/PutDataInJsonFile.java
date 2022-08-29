@@ -18,8 +18,6 @@ public class PutDataInJsonFile{
 //            jsonArray.put(list.get(i));
 //        }
 
-
-
         Map<String,Object> map = new HashMap<>();
         map.put("permanentAddress","Jammu");
         map.put("city","Kathua");
@@ -50,8 +48,6 @@ public class PutDataInJsonFile{
 
 
 
-
-
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("id",5);
         jsonObject.put("name","Toyota");
@@ -61,7 +57,7 @@ public class PutDataInJsonFile{
         jsonObject.put("PermanentAddress",map);
         jsonObject.put("TemporaryAddress",jsonArray1);
 
-        FileWriter file = new FileWriter("json\\test1.json",false);
+        FileWriter file = new FileWriter("json\\test8.json",false);
 
         file.write(jsonObject.toString());
         file.close();

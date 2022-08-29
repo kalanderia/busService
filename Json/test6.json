@@ -1,1 +1,11 @@
-{"LocalDateTime":"2022-08-17T14:42:56.092","Address":["{city=Kathua, permanentAddress=Jammu}","{pincode=184111, Area=Jammu To Chandigarh}"],"name":"Toyota","id":5,"BusReservationStatus":"BOOKED","type":"AC"}
+{
+  "LocalDateTime": "2022-08-17T14:42:56.092",
+  "Address": [
+    "{city=Kathua, permanentAddress=Jammu}",
+    "{pincode=184111, Area=Jammu To Chandigarh}"
+  ],
+  "name": "Toyota",
+  "id": 5,
+  "BusReservationStatus": "BOOKED",
+  "type": "AC"
+}

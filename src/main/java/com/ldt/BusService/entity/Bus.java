@@ -32,8 +32,7 @@ public class Bus implements Serializable {
 
      private int status = 1;
 
- public Bus (String fileName,String contentType,byte[] bytes){
- }
+
 
  @Override
  public String toString (){
@@ -47,13 +46,12 @@ public class Bus implements Serializable {
      @Lob
      private byte[] data;
 
- public Bus (int id,String fileName,String fileType,byte[] data){
-  this.id = id;
+
+ public Bus (String fileName,String contentType,byte[] data){
   this.fileName = fileName;
-  this.fileType = fileType;
+  this.fileType = contentType;
   this.data = data;
  }
-
  public String getFileName (){
   return fileName;
  }

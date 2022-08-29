@@ -7,6 +7,7 @@ import com.ldt.BusService.model.BusResponseDto;
 import com.ldt.BusService.repository.BusRepository;
 import com.ldt.BusService.service.BusService;
 import com.ldt.BusService.util.APIResponse;
+import com.ldt.BusService.util.BusReservationStatus;
 import com.ldt.BusService.util.ExcelHelper;
 import com.sun.xml.internal.ws.api.message.Attachment;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -147,6 +148,9 @@ public class BusServiceImpl implements BusService{
 
     @Override
     public Bus store (MultipartFile file) throws IOException{
+        byte[] data = file.getBytes();
+        String s = String.valueOf(data);
+        String name = file.getName();
         String fileName = StringUtils.cleanPath(file.getOriginalFilename());
         Bus bus = new Bus(fileName,file.getContentType(),file.getBytes());
         return busRepository.save(bus);
